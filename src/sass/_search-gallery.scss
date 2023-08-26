@@ -1,0 +1,65 @@
+.search-gallery {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #2f2f37;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .search-gallery code {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff6b0a;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  
+  .search-gallery .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .search-gallery .photo-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .search-gallery .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .search-gallery .info {
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .search-gallery .info-item {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .search-gallery .load-more {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .search-gallery .load-more:hover {
+    background-color: #0056b3;
+  }
+  

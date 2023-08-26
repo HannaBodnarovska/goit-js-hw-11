@@ -8,7 +8,14 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="container search-gallery">
+      <h1>Image Search App</h1>
+      <form class="search-form" id="search-form">
+        <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images...">
+        <button type="submit">Search</button>
+      </form>
+      <div class="gallery" id="gallery"></div>
+      <button type="button" class="load-more" id="load-more">Load more</button>
+    </div>
   </body>
 </html>
